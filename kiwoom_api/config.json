@@ -1,0 +1,24 @@
+{
+  "redis": {
+    "host": "localhost",
+    "port": 6379,
+    "db": 10
+  },
+  "subscriptions": {
+    "ticker": [
+      "005930",
+      "069500"
+    ],
+    "kline": {
+      "intervals": ["1m", "5m"],
+      "symbols": [
+        "005930",
+        "069500"
+      ]
+    },
+    "orderbook": [
+      "005930",
+      "069500"
+    ]
+  }
+}
